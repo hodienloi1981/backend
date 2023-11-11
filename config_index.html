@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Tiêu đề giao diện</title>
+   <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+   <link rel="stylesheet" href="public/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="public/fontawesome/css/all.min.css">
+
+   <link rel="stylesheet" href="public/css/backend.css">
+</head>
+
+<body>
+
+   <section class="hdl-header sticky-top">
+      <div class="container-fluid">
+         <ul class="menutop">
+            <li>
+               <a href="">
+                  <i class="fa-brands fa-dashcube"></i> Shop Thời trang
+               </a>
+            </li>
+            <li class="text-phai">
+               <a href="">
+                  <i class="fa-solid fa-power-off"></i> Thoát
+               </a>
+            </li>
+            <li class="text-phai">
+               <a href="">
+                  <i class="fa fa-user" aria-hidden="true"></i> Chào quản lý
+               </a>
+            </li>
+         </ul>
+      </div>
+   </section>
+   <section class="hdl-content">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-2 bg-dark p-0 hdl-left">
+               <div class="hdl-left">
+                  <div class="dashboard-name">
+                     Bản điều khiển
+                  </div>
+                  <nav class="m-2 mainmenu">
+                     <ul class="main">
+                        <li class="hdlitem item-sub">
+                           <i class="fa-brands fa-product-hunt icon-left"></i>
+                           <a href="#">Sản phẩm</a>
+                           <i class="fa-solid fa-plus icon-right"></i>
+                           <ul class="submenu">
+                              <li>
+                                 <a href="product_index.html">Tất cả sản phẩm</a>
+                              </li>
+                              <li>
+                                 <a href="product_import.html">Nhập hàng</a>
+                              </li>
+                              <li>
+                                 <a href="category_index.html">Danh mục</a>
+                              </li>
+                              <li>
+                                 <a href="brand_index.html">Thương hiệu</a>
+                              </li>
+                              <li>
+                                 <a href="product_sale.html">Khuyễn mãi</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="hdlitem item-sub">
+                           <i class="fa-brands fa-product-hunt icon-left"></i>
+                           <a href="#">Bài viết</a>
+                           <i class="fa-solid fa-plus icon-right"></i>
+                           <ul class="submenu">
+                              <li>
+                                 <a href="post_index.html">Tất cả bài viết</a>
+                              </li>
+                              <li>
+                                 <a href="topic_index.html">Chủ đề</a>
+                              </li>
+                              <li>
+                                 <a href="page_index.html">Trang đơn</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="hdlitem item-sub">
+                           <i class="fa-brands fa-product-hunt icon-left"></i>
+                           <a href="#">Quản lý bán hàng</a>
+                           <i class="fa-solid fa-plus icon-right"></i>
+                           <ul class="submenu">
+                              <li>
+                                 <a href="order_index.html">Tất cả đơn hàng</a>
+                              </li>
+                              <li>
+                                 <a href="order_export.html">Xuất hàng</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="hdlitem">
+                           <i class="fa-regular fa-circle icon-left"></i>
+                           <a href="customer_index.html">Khách hàng</a>
+                        </li>
+                        <li class="hdlitem">
+                           <i class="fa-regular fa-circle icon-left"></i>
+                           <a href="contact_index.html">Liên hệ</a>
+                        </li>
+                        <li class="hdlitem item-sub">
+                           <i class="fa-brands fa-product-hunt icon-left"></i>
+                           <a href="#">Giao diện</a>
+                           <i class="fa-solid fa-plus icon-right"></i>
+                           <ul class="submenu">
+                              <li>
+                                 <a href="menu_index.html">Menu</a>
+                              </li>
+                              <li>
+                                 <a href="banner_index.html">Banner</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="hdlitem item-sub">
+                           <i class="fa-brands fa-product-hunt icon-left"></i>
+                           <a href="#">Hệ thống</a>
+                           <i class="fa-solid fa-plus icon-right"></i>
+                           <ul class="submenu">
+                              <li>
+                                 <a href="user_index.html">Thành viên</a>
+                              </li>
+                              <li>
+                                 <a href="config_index.html">Cấu hình</a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+            <div class="col-md-10">
+               <!--CONTENT  -->
+               <div class="content">
+                  <section class="content-header my-2">
+                     <h1 class="d-inline">Cấu hình website</h1>
+                  </section>
+                  <section class="content-body my-3">
+
+                     <form action="" method="post">
+                        <input type="hidden" name="id" value="">
+                        <div class="mb-3">
+                           <label for="author"><strong>Tác giả(*)</strong></label>
+                           <input type="text" name="author" value="" id="author" class="form-control" />
+                        </div>
+                        <div class="mb-3">
+                           <label for="email"><strong>Email(*)</strong></label>
+                           <input type="text" name="email" value="" id="email" class="form-control" />
+                        </div>
+                        <div class="mb-3">
+                           <label for="phone"><strong>Điện thoại(*)</strong></label>
+                           <input type="text" name="phone" value="" id="phone" class="form-control" />
+                        </div>
+                        <div class="mb-3">
+                           <label for="zalo"><strong>Zalo(*)</strong></label>
+                           <input type="text" name="zalo" value="" id="zalo" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                           <label for="facebook"><strong>Facebook cá nhân(*)</strong></label>
+                           <input type="text" name="facebook" value="" id="facebook" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                           <label for="address"><strong>Địa chỉ(*)</strong></label>
+                           <input type="text" name="address" value="" id="address" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                           <label for="youtube"><strong>Kênh Youtube(*)</strong></label>
+                           <input type="text" name="youtube" value="" id="youtube" class="form-control" />
+                        </div>
+
+                        <div class="mb-3">
+                           <label for="metadesc"><strong>Mô tả seo(*)</strong></label>
+                           <textarea name="metadesc" id="metadesc" class="form-control"></textarea>
+                        </div>
+                        <div class="mb-3">
+                           <label for="metakey"><strong>Từ khoa seo(*)</strong></label>
+                           <textarea name="metakey" id="metakey" class="form-control"></textarea>
+                        </div>
+                        <div class="mb-3">
+                           <label for="status"><strong>Trạng thái</strong></label>
+                           <select name="status" id="status" class="form-control">
+                              <option value="1">Online
+                              </option>
+                              <option value="2">Offline
+                              </option>
+                           </select>
+                        </div>
+                        <div class="mb-3">
+                           <button type="submit" class="btn btn-success">
+                              <i class="fa fa-save" aria-hidden="true"></i> Lưu cấu hình
+                           </button>
+                        </div>
+                     </form>
+
+                  </section>
+               </div>
+               <!--END CONTENT-->
+            </div>
+         </div>
+      </div>
+   </section>
+   <script src="public/jquery/jquery-3.7.0.min.js"></script>
+
+   <script src="public/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="public/js/backend.js"></script>
+</body>
+
+</html>
